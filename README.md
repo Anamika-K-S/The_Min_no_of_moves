@@ -28,13 +28,18 @@ EXAMPLE
 ---------
 INPUT:
 2
+
 3
+
 1 2 3
+
 2
+
 42 42
 
 OUTPUT:
-3
+3 
+
 0
 
 Explanation
