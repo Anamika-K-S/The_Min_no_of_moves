@@ -1,0 +1,40 @@
+#include <stdio.h>
+
+int main(void)
+{
+  // Total test cases
+	int T;
+	scanf("%d",&T);
+	while(T--)
+	{
+	   int N,val;
+     
+     // Reading the no. of workers to N and initializing array of size N
+	   scanf("%d",&N);
+	   int wor[N];
+     
+     //Reading N salaries to array
+	   for(int i=0;i<N;i++)
+	   {
+	       scanf("%d",&wor[i]);
+	   }
+     
+     // Find the smallest salary
+	   val=wor[0];
+	   for(int i=1;i<N;i++)
+	   {
+	       if(val>wor[i])
+	           val=wor[i];
+	   }
+     
+     //Finding the min no. of steps needed to equalize salary
+	   int sum=0;
+	   for(int i=0;i<N;i++)
+	   {
+	       sum+=(wor[i]-val);
+	   }
+	   printf("%d\n",sum);
+	}
+	return 0;
+}
+
