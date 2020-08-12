@@ -27,6 +27,7 @@ CONSTRAINTS
 EXAMPLE
 ---------
 INPUT:
+
 2
 
 3
@@ -38,6 +39,7 @@ INPUT:
 42 42
 
 OUTPUT:
+
 3 
 
 0
@@ -49,6 +51,6 @@ Example Case 1. Chief can equalize all salaries in 3 turns:
         Turn ID 	IDs of involved workers 	Salaries after the move
            1 	         1 2 	                      2 3 3
            2 	         1 2 	                      3 4 3
-           3 	         1 3                      	4 4 4
+           3 	         1 3                     	  4 4 4
 
 Example Case 2. All salaries are already equal. He doesn't need to do anything.
