@@ -1,0 +1,9 @@
+For every test case T
+  Read no. of workers to N
+  Create array of size N
+  Read N salaries to array
+  Find the smallest salary (val)
+  For every salary in array
+      find (salary-val)
+      add it to sum
+  The variable sum contains the min steps needed for equalization
